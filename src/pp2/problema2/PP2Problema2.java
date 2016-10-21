@@ -22,13 +22,14 @@ public class PP2Problema2 {
     
     }
     
-    public static double pedirDato() {
+    public static double pedirDato() { //Metodo para pedir dato por teclado
         Scanner entrada = new Scanner(System.in);
         System.out.println("Introducir medida en metros para conversion");
         return entrada.nextDouble();
     }
     
-    public static void mostrarResultado(double x) {
+    public static void mostrarResultado(double x) { //Metodo que realiza la conversión y muestra en pantalla el resultado
+        
         double pies,yardas,millas;
         
         pies= x*3.28;
